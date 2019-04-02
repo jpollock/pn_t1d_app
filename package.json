@@ -1,0 +1,29 @@
+{
+  "name": "pn_t1d_app",
+  "version": "0.0.1",
+  "description": "PubNub functions app for Dexcom CGM integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpollock/pn_t1d_app.git"
+  },
+  "keywords": [
+    "pubnub",
+    "diabetes",
+    "dexcom"
+  ],
+  "author": "Jeremy Pollock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpollock/pn_t1d_app/issues"
+  },
+  "homepage": "https://github.com/jpollock/pn_t1d_app#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "pubnub-cli": "^0.1.4"
+  }
+}
